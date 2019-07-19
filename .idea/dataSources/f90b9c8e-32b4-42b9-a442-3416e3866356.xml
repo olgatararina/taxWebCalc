@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="taxes@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="taxes">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="mysql"/>
+    <schema id="5" parent="1" name="performance_schema"/>
+    <schema id="6" parent="1" name="player"/>
+    <schema id="7" parent="1" name="store"/>
+    <schema id="8" parent="1" name="students"/>
+    <schema id="9" parent="1" name="students1"/>
+    <schema id="10" parent="1" name="test"/>
+    <schema id="11" parent="1" name="testmvc"/>
+    <table id="12" parent="2" name="records"/>
+    <column id="13" parent="12" name="id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="14" parent="12" name="period">
+      <Position>2</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="15" parent="12" name="proceeds">
+      <Position>3</Position>
+      <DataType>int(10) unsigned|0</DataType>
+    </column>
+    <column id="16" parent="12" name="non_operating_income">
+      <Position>4</Position>
+      <DataType>int(10) unsigned|0</DataType>
+    </column>
+    <column id="17" parent="12" name="job">
+      <Position>5</Position>
+      <DataType>bit(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="18" parent="12" name="privileges">
+      <Position>6</Position>
+      <DataType>bit(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="19" parent="12" name="one_parent">
+      <Position>7</Position>
+      <DataType>bit(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="20" parent="12" name="kids">
+      <Position>8</Position>
+      <DataType>int(2) unsigned|0</DataType>
+    </column>
+    <column id="21" parent="12" name="disabled_kids">
+      <Position>9</Position>
+      <DataType>int(2) unsigned|0</DataType>
+    </column>
+    <column id="22" parent="12" name="dependent">
+      <Position>10</Position>
+      <DataType>int(2) unsigned|0</DataType>
+    </column>
+    <column id="23" parent="12" name="insurance_expenses">
+      <Position>11</Position>
+      <DataType>int(10) unsigned|0</DataType>
+    </column>
+    <column id="24" parent="12" name="education_expenses">
+      <Position>12</Position>
+      <DataType>int(10) unsigned|0</DataType>
+    </column>
+    <column id="25" parent="12" name="construction_expenses">
+      <Position>13</Position>
+      <DataType>int(10) unsigned|0</DataType>
+    </column>
+    <column id="26" parent="12" name="buisiness_expenses">
+      <Position>14</Position>
+      <DataType>int(10) unsigned|0</DataType>
+    </column>
+    <column id="27" parent="12" name="tax_sum">
+      <Position>15</Position>
+      <DataType>int(10) unsigned|0</DataType>
+    </column>
+    <index id="28" parent="12" name="id">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="29" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="30" parent="12" name="id">
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>id</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>
