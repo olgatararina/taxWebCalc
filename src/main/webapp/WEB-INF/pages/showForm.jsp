@@ -10,10 +10,11 @@
 <html>
 <head>
     <title>Records</title>
+    <link href="<c:url value="/res/style.css"/>" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<h2>Records</h2>
-<table>
+<h1>Records</h1>
+<table class = "simple-table" cellspacing="0">
     <tr>
         <th>ID</th>
         <th>Период</th>

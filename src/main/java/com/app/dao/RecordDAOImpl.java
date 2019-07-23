@@ -48,7 +48,7 @@ public class RecordDAOImpl implements RecordDao {
     public double doCalculation(Record record) {
 
         int v1=0;
-        if (record.getPeriod().equals("квартал"))
+        if (record.getPeriod().equals("3 месяца"))
             v1 = 3;
         if (record.getPeriod().equals("6 месяцев"))
             v1 = 6;

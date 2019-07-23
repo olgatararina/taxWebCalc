@@ -1,0 +1,146 @@
+h1 {
+    text-align: center;
+    color: #bd5a35;
+}
+
+.simple-table {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #665;
+    font-size: 20px;
+    text-shadow: 1px 1px 0px #fff;
+    background: #eaebec;
+
+    border: #ccc 1px solid;
+    border-collapse: separate;
+
+    border-radius: 3px;
+    box-shadow: 0 1px 2px #d1d1d1;
+}
+
+.simple-table th {
+
+    font-weight: bold;
+    padding: 21px 25px 22px 25px;
+    border-top: 1px solid #fafafa;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 16px;
+
+    background: #ededed;
+}
+
+.simple-table th:first-child {
+
+    text-align: left;
+    padding-left: 20px;
+}
+
+.simple-table tr:first-child th:first-child {
+
+    border-top-left-radius: 3px;
+}
+
+.simple-table tr:first-child th:last-child {
+
+    border-top-right-radius: 3px;
+}
+
+.simple-table tr {
+    text-align: center;
+    padding-left: 20px;
+}
+
+.simple-table tr td:first-child {
+    text-align: left;
+    padding-left: 20px;
+    border-left: 0;
+}
+
+.simple-table tr td {
+    padding: 18px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+
+    background: #fafafa;
+}
+
+.simple-table tr:nth-child(even) td {
+    background: #f6f6f6;
+}
+
+.simple-table tr:last-child td {
+    border-bottom: 0;
+}
+
+.simple-table tr:last-child td:first-child {
+    border-bottom-left-radius: 3px;
+}
+
+.simple-table tr:last-child td:last-child {
+    border-bottom-right-radius: 3px;
+}
+
+.simple-table tr:hover td {
+    background: #f2f2f2;
+}
+
+.simple-table a:link {
+    color: #665;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.simple-table a:visited {
+    color: #999999;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.simple-table a:active,
+.simple-table a:hover {
+    color: #bd5a35;
+    text-decoration: underline;
+}
+
+#but {
+    width: 140px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background: #eaebec;
+    position: relative;
+    right: -650px;
+    margin-top: 30px;
+}
+
+input[type = text] {
+    height: 30px;
+    width: 170px;
+}
+
+#period {
+    height: 30px;
+    width: 170px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #665;
+    font-size: 18px;
+}
+
+#sum {
+    margin-top: 100px;
+}
+
+#link {
+    margin-top: 500px;
+}
+
+.er {
+    color: red;
+    text-align: center;
+    border-color: red;
+
+}
+

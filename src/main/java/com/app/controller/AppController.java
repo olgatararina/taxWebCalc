@@ -23,14 +23,6 @@ public class AppController {
     }
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    public ModelAndView showform() {
-        ModelAndView modelAndView = new ModelAndView();
-        modelAndView.setViewName("initForm");
-
-        return modelAndView;
-    }
-
-    @RequestMapping(value = "/calculate", method = RequestMethod.GET)
     public ModelAndView executePage() {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("calculateForm");
